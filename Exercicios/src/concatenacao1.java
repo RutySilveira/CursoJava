@@ -2,7 +2,7 @@
 import java.util.Locale;
 
 // Define a classe principal do programa
-public class concatenacao1 {
+public class Concatenacao1 {
   
   // Método main, ponto de entrada do programa
   public static void main(String[] args) {

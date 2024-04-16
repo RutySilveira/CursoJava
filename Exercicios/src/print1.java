@@ -1,5 +1,5 @@
 // Define uma classe chamada "print1".
-public class print1 {
+public class Print1 {
 
   // Método principal que é executado quando o programa Java é iniciado.
   public static void main(String[] args) {

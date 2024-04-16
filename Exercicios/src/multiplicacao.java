@@ -1,5 +1,5 @@
 // Define uma classe chamada "multiplicacao".
-public class multiplicacao {
+public class Multiplicacao {
 
   // Método principal que é executado quando o programa Java é iniciado.
   public static void main(String[] args) {

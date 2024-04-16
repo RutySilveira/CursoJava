@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class print2 {
+public class Print2 {
     public static void main(String[]args){
     
       // Definindo o locale padrão para garantir o formato de número consistente

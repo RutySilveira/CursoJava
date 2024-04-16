@@ -1,5 +1,5 @@
 // Define uma classe chamada Concatenacao
-public class concatenacao {
+public class Concatenacao {
 
   // Método main, que é o ponto de entrada para qualquer aplicativo Java
   public static void main(String[]args){
