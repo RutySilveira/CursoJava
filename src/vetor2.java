@@ -1,7 +1,7 @@
 import java.util.Scanner; // Importa a classe Scanner do pacote java.util para entrada de dados do usuário.
 import java.util.Locale; // Importa a classe Locale do pacote java.util para configurar o local padrão para formatação de números.
 
-public class vetor2 { // Declaração da classe vetor2.
+public class Vetor2 { // Declaração da classe vetor2.
 
   public static void main(String[] args) { // Método principal onde o programa começa sua execução.
 

@@ -1,6 +1,6 @@
 import java.util.Scanner; // Importa a classe Scanner do pacote java.util para entrada de dados do usuário.
 
-public class vetor1 { // Declaração da classe vetor1.
+public class Vetor1 { // Declaração da classe vetor1.
 
   public static void main(String[] args) { // Método principal onde o programa começa sua execução.
 
