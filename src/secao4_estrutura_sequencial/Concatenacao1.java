@@ -1,12 +1,14 @@
+package secao4_estrutura_sequencial;
+
 // Importa a classe Locale do pacote java.util para manipulação de configurações regionais
 import java.util.Locale;
 
 // Define a classe principal do programa
 public class Concatenacao1 {
-  
+
   // Método main, ponto de entrada do programa
   public static void main(String[] args) {
-    
+
     // Declara e inicializa variáveis de string com nomes de produtos
     String product1 = "Computer";
     String product2 = "Office desk";
@@ -49,15 +51,14 @@ public class Concatenacao1 {
     // Imprime a medida arredondada para três casas decimais
     System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 
-    // Define o padrão de localização para os Estados Unidos (afeta a formatação de números)
+    // Define o padrão de localização para os Estados Unidos (afeta a formatação de
+    // números)
     Locale.setDefault(Locale.US);
 
-    // Imprime a medida com três casas decimais usando o padrão de ponto decimal dos EUA
+    // Imprime a medida com três casas decimais usando o padrão de ponto decimal dos
+    // EUA
     System.out.printf("US decimal point: %.3f%n", measure);
   }
   // Fim do método main
 }
 // Fim da classe Main
-
-
-
