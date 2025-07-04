@@ -1,3 +1,4 @@
+package secao5_estrutura_condicional;
 
 // Importando a classe Scanner para entrada de dados e Locale para definir o padrão local
 import java.util.Scanner;

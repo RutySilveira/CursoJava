@@ -1,3 +1,5 @@
+package secao6_estrutura_repetitiva;
+
 import java.util.Scanner;
 
 public class For {

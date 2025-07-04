@@ -1,3 +1,5 @@
+package secao6_estrutura_repetitiva;
+
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package secao5_estrutura_condicional;
+
 import java.util.Scanner;
 
 public class SwitchCase {

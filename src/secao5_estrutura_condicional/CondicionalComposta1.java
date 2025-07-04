@@ -1,3 +1,5 @@
+package secao5_estrutura_condicional;
+
 import java.util.Scanner; // Importa a classe Scanner do pacote java.util para ler entrada do usuário
 
 public class CondicionalComposta1 { // Declaração da classe CondicionalComposta1

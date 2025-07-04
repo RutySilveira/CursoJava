@@ -1,3 +1,5 @@
+package secao5_estrutura_condicional;
+
 // Definindo uma classe chamda Condicional
 public class Condicional {
   // Método principal que é executado ao iniciar o programa
