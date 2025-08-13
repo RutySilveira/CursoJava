@@ -13,15 +13,18 @@ public class Estoque {
 
     Scanner sc = new Scanner(System.in); // Cria um objeto Scanner para ler dados do teclado
 
-    Product product = new Product(); // Instancia um novo objeto da classe Product
-
     System.out.println("Enter product data: ");
     System.out.print("Name: ");
-    product.name = sc.nextLine(); // Lê o nome do produto
+    String name = sc.nextLine(); // Lê o nome do produto
     System.out.print("Price: ");
-    product.price = sc.nextDouble(); // Lê o preço do produto
-    System.out.print("Quantity in stock: ");
-    product.quantity = sc.nextInt(); // Lê a quantidade em estoque
+    double price = sc.nextDouble(); // Lê o preço do produto
+
+    Product product = new Product(name, price);
+
+    product.setName("Computer");
+    System.out.println("Update name: " + product.getName());
+    product.setPrice(1200.00);
+    System.out.println("Update price: " + product.getPrice());
 
     System.out.println();
     System.out.println("Product data: " + product); // Exibe os dados do produto (usa o método toString da classe
