@@ -1,4 +1,4 @@
-package exerciciosSecao9;
+package exerciciosSecao9.application;
 
 // Importa classes necessárias
 import java.util.Locale; // Para configurar o formato de números (ex: separador decimal como ponto)
