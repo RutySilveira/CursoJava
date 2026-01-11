@@ -1,4 +1,4 @@
-package secao12EnumeracoesComposicao.exerciciosSecao12.entities.enums;
+package secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.enums;
 // Pacote específico para enums do domínio da aplicação
 
 // Boa prática: separar enums das entidades comuns

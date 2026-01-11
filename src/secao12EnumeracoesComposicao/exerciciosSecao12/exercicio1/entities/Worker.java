@@ -1,10 +1,10 @@
-package secao12EnumeracoesComposicao.exerciciosSecao12.entities;
+package secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import secao12EnumeracoesComposicao.exerciciosSecao12.entities.enums.WorkerLevel;
+import secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.enums.WorkerLevel;
 
 public class Worker {
 

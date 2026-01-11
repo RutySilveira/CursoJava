@@ -1,4 +1,4 @@
-package secao12EnumeracoesComposicao.exerciciosSecao12.application;
+package secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.application;
 // Pacote da aplicação principal (onde fica o método main)
 
 import java.text.ParseException;
@@ -16,17 +16,10 @@ import java.util.Locale;
 import java.util.Scanner;
 // Classe usada para entrada de dados pelo teclado
 
-import secao12EnumeracoesComposicao.exerciciosSecao12.entities.Department;
-// Importa a classe Department (composição do Worker)
-
-import secao12EnumeracoesComposicao.exerciciosSecao12.entities.HourContract;
-// Importa a classe HourContract (contratos por hora do Worker)
-
-import secao12EnumeracoesComposicao.exerciciosSecao12.entities.Worker;
-// Importa a classe Worker (classe principal do domínio)
-
-import secao12EnumeracoesComposicao.exerciciosSecao12.entities.enums.WorkerLevel;
-// Importa o enum WorkerLevel (nível do trabalhador)
+import secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.Department;
+import secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.HourContract;
+import secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.Worker;
+import secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities.enums.WorkerLevel;
 
 public class Program {
 

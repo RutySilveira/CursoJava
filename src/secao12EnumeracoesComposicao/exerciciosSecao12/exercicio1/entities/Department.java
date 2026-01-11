@@ -1,4 +1,4 @@
-package secao12EnumeracoesComposicao.exerciciosSecao12.entities;
+package secao12EnumeracoesComposicao.exerciciosSecao12.exercicio1.entities;
 // Pacote que contém as classes de entidades do domínio do sistema
 
 public class Department {
