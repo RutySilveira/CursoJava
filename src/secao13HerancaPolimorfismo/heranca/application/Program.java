@@ -1,7 +1,6 @@
-package secao14HerancaPolimorfismo.heranca.application;
+package secao13HerancaPolimorfismo.heranca.application;
 
-// Importa a classe BusinessAccount do pacote entities
-import secao14HerancaPolimorfismo.heranca.entities.BusinessAccount;
+import secao13HerancaPolimorfismo.heranca.entities.BusinessAccount;
 
 public class Program {
 

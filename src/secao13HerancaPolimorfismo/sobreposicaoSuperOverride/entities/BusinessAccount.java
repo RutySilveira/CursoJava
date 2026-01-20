@@ -1,10 +1,10 @@
-package secao14HerancaPolimorfismo.upcastingDowncasting.entities;
+package secao13HerancaPolimorfismo.sobreposicaoSuperOverride.entities;
 
-// Classe BusinessAccount (Conta Empresarial)
-// Subclasse de Account, usada com frequência em exemplos de upcasting e downcasting
+// Classe BusinessAccount
+// Subclasse de Account que sobrescreve o comportamento de saque
 public class BusinessAccount extends Account {
 
-  // Limite máximo de empréstimo permitido para a conta empresarial
+  // Limite máximo de empréstimo da conta empresarial
   private Double loanLimit;
 
   // Construtor padrão
@@ -17,8 +17,8 @@ public class BusinessAccount extends Account {
   // Inicializa os atributos herdados da classe Account
   // e o atributo específico da BusinessAccount
   public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
-    super(number, holder, balance); // inicialização da parte Account do objeto
-    this.loanLimit = loanLimit; // inicialização do limite de empréstimo
+    super(number, holder, balance); // inicializa a parte Account do objeto
+    this.loanLimit = loanLimit; // inicializa o limite de empréstimo
   }
 
   // Retorna o limite de empréstimo
@@ -32,15 +32,25 @@ public class BusinessAccount extends Account {
   }
 
   // Método específico da classe BusinessAccount
-  // NÃO existe na superclasse Account
-  // Só pode ser acessado diretamente quando a referência
-  // é do tipo BusinessAccount (downcasting)
+  // Concede empréstimo se o valor estiver dentro do limite
   public void loan(double amount) {
     if (amount <= loanLimit) {
-      // Acesso direto ao atributo balance permitido
+      // Acesso direto ao balance permitido
       // porque ele é protected na classe Account
-      // É cobrada uma taxa fixa de 10.0 sobre o empréstimo
+      // Taxa fixa de 10.0 aplicada ao empréstimo
       balance += amount - 10.0;
     }
+  }
+
+  // Sobrescrita (override) do método withdraw da classe Account
+  @Override
+  public void withdraw(double amount) {
+
+    // Chama o método withdraw da superclasse Account
+    // Aplica a regra padrão de saque (valor + taxa de 5.0)
+    super.withdraw(amount);
+
+    // Aplica uma taxa adicional específica da BusinessAccount
+    balance -= 2.0;
   }
 }

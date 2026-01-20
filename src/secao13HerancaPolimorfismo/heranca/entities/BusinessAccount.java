@@ -1,4 +1,4 @@
-package secao14HerancaPolimorfismo.heranca.entities;
+package secao13HerancaPolimorfismo.heranca.entities;
 
 // Classe BusinessAccount (Conta Empresarial)
 // Herda atributos e métodos da classe Account

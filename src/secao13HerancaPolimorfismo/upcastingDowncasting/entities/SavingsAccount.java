@@ -1,4 +1,4 @@
-package secao14HerancaPolimorfismo.upcastingDowncasting.entities;
+package secao13HerancaPolimorfismo.upcastingDowncasting.entities;
 
 // Classe SavingsAccount (Conta Poupança)
 // Subclasse de Account, usada em exemplos de herança e casting

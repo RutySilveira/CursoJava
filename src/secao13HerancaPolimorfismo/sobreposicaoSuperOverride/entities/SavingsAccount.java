@@ -1,4 +1,4 @@
-package secao14HerancaPolimorfismo.sobreposicaoSuperOverride.entities;
+package secao13HerancaPolimorfismo.sobreposicaoSuperOverride.entities;
 
 // Classe SavingsAccount (Conta Poupança)
 // Subclasse de Account que sobrescreve o comportamento de saque

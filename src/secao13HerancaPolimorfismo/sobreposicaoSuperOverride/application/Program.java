@@ -1,9 +1,8 @@
-package secao14HerancaPolimorfismo.sobreposicaoSuperOverride.application;
+package secao13HerancaPolimorfismo.sobreposicaoSuperOverride.application;
 
-// Importação das classes do pacote entities
-import secao14HerancaPolimorfismo.sobreposicaoSuperOverride.entities.Account;
-import secao14HerancaPolimorfismo.sobreposicaoSuperOverride.entities.BusinessAccount;
-import secao14HerancaPolimorfismo.sobreposicaoSuperOverride.entities.SavingsAccount;
+import secao13HerancaPolimorfismo.sobreposicaoSuperOverride.entities.Account;
+import secao13HerancaPolimorfismo.sobreposicaoSuperOverride.entities.BusinessAccount;
+import secao13HerancaPolimorfismo.sobreposicaoSuperOverride.entities.SavingsAccount;
 
 public class Program {
 

@@ -1,8 +1,7 @@
-package secao14HerancaPolimorfismo.upcastingDowncasting.entities;
+package secao13HerancaPolimorfismo.heranca.entities;
 
-// Classe Account (Conta)
-// Superclasse que servirá como base para outras classes
-// Muito usada em exemplos de upcasting e downcasting
+// Classe base Account (Conta)
+// Serve como superclasse para outras contas que poderão herdar seus atributos e métodos
 public class Account {
 
   // Número da conta
@@ -12,16 +11,14 @@ public class Account {
   private String holder;
 
   // Saldo da conta
-  // protected permite que subclasses acessem diretamente esse atributo
+  // protected permite acesso direto pelas subclasses (herança)
   protected Double balance;
 
-  // Construtor padrão
-  // Necessário para herança e para criação de objetos sem parâmetros
+  // Construtor padrão (necessário para frameworks e criação sem parâmetros)
   public Account() {
   }
 
-  // Construtor com parâmetros
-  // Inicializa os atributos básicos da conta
+  // Construtor com parâmetros para inicializar a conta
   public Account(Integer number, String holder, Double balance) {
     this.number = number;
     this.holder = holder;
@@ -53,15 +50,13 @@ public class Account {
     return balance;
   }
 
-  // Método de saque
-  // Pode ser sobrescrito (override) pelas subclasses
-  // Importante para exemplos de polimorfismo
+  // Realiza um saque subtraindo o valor do saldo
+  // Esse método pode ser sobrescrito (override) por subclasses
   public void withdraw(double amount) {
     balance -= amount;
   }
 
-  // Método de depósito
-  // Soma o valor informado ao saldo da conta
+  // Realiza um depósito somando o valor ao saldo
   public void deposit(double amount) {
     balance += amount;
   }
