@@ -1,4 +1,4 @@
-package secao13HerancaPolimorfismo.exerciciosSecao13.entities;
+package secao13HerancaPolimorfismo.exerciciosSecao13.exercicio1.entities;
 
 // Classe OutsourcedEmployee
 // Representa um funcionário terceirizado

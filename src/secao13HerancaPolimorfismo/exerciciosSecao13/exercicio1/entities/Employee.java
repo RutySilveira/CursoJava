@@ -1,4 +1,4 @@
-package secao13HerancaPolimorfismo.exerciciosSecao13.entities;
+package secao13HerancaPolimorfismo.exerciciosSecao13.exercicio1.entities;
 
 // Classe base Employee
 // Ela representa um funcionário "comum" e será usada como superclasse

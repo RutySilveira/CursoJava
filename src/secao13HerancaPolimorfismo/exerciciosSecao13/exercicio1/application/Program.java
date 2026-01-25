@@ -6,9 +6,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-// Importação das classes do pacote entities
-import secao13HerancaPolimorfismo.exerciciosSecao13.entities.Employee;
-import secao13HerancaPolimorfismo.exerciciosSecao13.entities.OutsourcedEmployee;
+import secao13HerancaPolimorfismo.exerciciosSecao13.exercicio1.entities.Employee;
+import secao13HerancaPolimorfismo.exerciciosSecao13.exercicio1.entities.OutsourcedEmployee;
 
 // Classe principal do programa
 public class Program {
