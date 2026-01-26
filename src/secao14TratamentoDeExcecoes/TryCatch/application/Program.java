@@ -1,4 +1,4 @@
-package secao14TratamentoDeExcecoes.TryCatch.application;
+package secao14TratamentoDeExcecoes.tryCatch.application;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
